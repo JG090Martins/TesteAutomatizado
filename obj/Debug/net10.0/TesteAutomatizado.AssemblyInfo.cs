@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TesteAutomatizado")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6456797b885d680e4b6e31172a8ba66624d54fcf")]
 [assembly: System.Reflection.AssemblyProductAttribute("TesteAutomatizado")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TesteAutomatizado")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
