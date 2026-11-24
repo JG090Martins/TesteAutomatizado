@@ -6,7 +6,6 @@ namespace ControleEstoque.Tests;
 [TestFixture]
 public class EstoqueTests
 {
-    // Teste 1: Comportamento esperado
     [Test]
     public void AdicionarEstoque_QuantidadeValida_DeveSomarAoSaldoAtual()
     {
@@ -16,7 +15,6 @@ public class EstoqueTests
         Assert.That(produto.Quantidade, Is.EqualTo(8));
     }
 
-    // Teste 2: Tratamento de erro 
     [Test]
     public void RemoverEstoque_QuantidadeMaiorQueSaldo_DeveLancarExcecao()
     {
@@ -25,7 +23,6 @@ public class EstoqueTests
         Assert.Throws<InvalidOperationException>(() => produto.RemoverEstoque(5));
     }
 
-    // Teste 3: Retorno de função (cálculo do valor total)
     [Test]
     public void CalcularValorTotalEmEstoque_DeveRetornarMultiplicacaoCorreta()
     {
