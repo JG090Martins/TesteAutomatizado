@@ -1,8 +1,6 @@
-namespace TesteAutomatizado.Models;
+namespace ControleEstoque.Models;
+using ControleEstoque;
 
-/// <summary>
-/// Agrega os produtos e registra o histórico de movimentações.
-/// </summary>
 public class Estoque
 {
     private readonly List<Produto> _produtos = new();

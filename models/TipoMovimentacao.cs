@@ -1,6 +1,5 @@
-namespace TesteAutomatizado.Models;
+namespace ControleEstoque.Models;
 
-/// <summary>Tipo de movimentação registrada no estoque.</summary>
 public enum TipoMovimentacao
 {
     Entrada,

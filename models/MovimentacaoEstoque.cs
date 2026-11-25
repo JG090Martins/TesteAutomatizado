@@ -1,6 +1,5 @@
-namespace TesteAutomatizado.Models;
+namespace ControleEstoque.Models;
 
-/// <summary>Registro histórico de uma entrada ou saída de um produto.</summary>
 public class MovimentacaoEstoque
 {
     public Produto Produto { get; }

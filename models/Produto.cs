@@ -47,4 +47,10 @@ public class Produto
     {
         return Quantidade * PrecoUnitario;
     }
+
+    public bool EstaAbaixoDoMinimo(int limiteMinimo = 5)
+{
+    return Quantidade <= limiteMinimo;
+}
+
 }
